@@ -39,7 +39,7 @@ class App extends React.Component {
       <>
         <Router>
           <div>
-            <Navbar cart={this.props.cart} />
+            <Navbar cart={this.props.cart}/>
             <switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
@@ -90,7 +90,7 @@ class App extends React.Component {
 }
 const mapStateToProps = ({ cart }) => {
   return {
-    cart,
+    cart, 
   };
 };
 
